@@ -1,0 +1,7 @@
+%form(action=url method="post")
+      :each i in [0,1,2,3,4]
+        %p %label Item
+           %input(type="text" name="item[]")
+      %p
+        %input(type="submit" value="Create List")
+
